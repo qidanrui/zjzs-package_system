@@ -41,7 +41,7 @@ else if(activity_area==4){
 else if(activity_area==5){
     act_area = "E区";
 }
-if(activity_area!=0){
+if(activity_need_seat!=0){
     activity_extra_info.push({t:'套票区域',c:act_area});
 }
 

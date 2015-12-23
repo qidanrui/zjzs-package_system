@@ -73,6 +73,7 @@ router.get("/", function(req, res, next)
                                     .replace(/\\n/g,"<br>"),
             act_type:           theAct.need_package_or_not+1,
 			act_area:			theAct.package_need_seat_area,
+			act_need_seat:      theAct.package_need_seat,
             cur_time:           getTime(new Date(),true),
             rem_tik:            theAct.remain_tickets,
 
